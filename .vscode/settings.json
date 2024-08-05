@@ -8,10 +8,12 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit",
-    "source.fixAll": "never"
+    "source.fixAll": "never",
+    "source.fixAll.stylelint": "explicit"
   },
   "eslint.format.enable": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "prettier.enable": false
+  "prettier.enable": false,
+  "stylelint.validate": ["css", "scss"]
   
 }
